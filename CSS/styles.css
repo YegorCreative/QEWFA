@@ -116,9 +116,39 @@ color: #9500ff;
   }
   #partTwo{
       width: 100%;
-      height: 500px;
+      height: 280px;
       box-sizing: border-box;
       background-image: url(../Assets/Group108.png);
       background-size: contain;
       background-repeat: no-repeat;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      color: white;
+  }
+  #partTwo h2{
+    color: white;
+    margin-top: 50px;
+  }
+  #partTwo a{
+    width: 180px;
+    padding: 7px;
+    color: black;
+    background-color: white;
+  }
+  #ourProjects{
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
+  #ourProjects h2{
+   width: 100%;
+    top: 25px;
+    position: absolute;
   }
