@@ -231,3 +231,9 @@ color: #9500ff;
     justify-content: space-between;
     color: white;font-weight: 600;
   }
+  .learnMore{
+    text-decoration: none;
+    text-align: center;
+    width: 320px;
+    background-color: #2357C7;
+  }
