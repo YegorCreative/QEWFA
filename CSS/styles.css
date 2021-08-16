@@ -28,7 +28,7 @@ color: #9500ff;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: none;
     position: relative;
 }
 
