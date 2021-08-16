@@ -237,3 +237,64 @@ color: #9500ff;
     width: 320px;
     background-color: #2357C7;
   }
+  .aboutUs{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .designElement{
+    margin-top: -50px;
+    z-index: 2;
+    
+  }
+  .people {
+    z-index: 5;
+  }
+  .usAbout{
+    color: white;
+    margin-top: -70px;
+    z-index: 6;
+    font-weight: 800;
+  }
+  .aboutUs p{
+    padding: 15px;
+  }
+  .aboutUs h3{
+    padding-top: 25px;
+  }
+
+  .footer{
+    width: 100%;
+    box-sizing: border-box;
+    border-top: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .container{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form-group{
+    padding: 15px;
+  }
+  .form-group input{
+    padding: 10px;
+    width: 220px;
+    border: solid 2px #2357C7;
+    border-radius: 12px;
+  }
+  .btn{
+    
+    width: 120px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
