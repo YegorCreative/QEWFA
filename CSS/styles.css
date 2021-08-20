@@ -362,7 +362,7 @@ color: #9500ff;
     color: white;
   }
   .div1{
-    z-index: 10;
+    z-index: 0;
   }
   .div3{
     z-index: -1;
