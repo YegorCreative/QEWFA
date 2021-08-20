@@ -387,3 +387,10 @@ color: #9500ff;
     flex-direction: column;
     align-items: center;
   }
+  .donAte{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    font-weight: 900;
+  }
