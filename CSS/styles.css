@@ -343,3 +343,47 @@ color: #9500ff;
   .giveNow a:hover{
     opacity: 0.4;
   }
+  .threeContainers{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .div2, .div3 {
+    margin-top: -10px;
+  }
+  .headToe{
+    width: 120px;
+    margin-top: -163px;
+    padding: 5px;
+    z-index: 15;
+    color: white;
+  }
+  .div1{
+    z-index: 10;
+  }
+  .div3{
+    z-index: -1;
+  }
+  .headToeTwo{
+    margin-left: 190px;
+  }
+  .heather{
+    margin-top: 20px;
+   padding-left: 15px;
+   margin-right: -40px;
+  }
+  .heather2{
+    margin-top: -8px;
+    margin-left:-35px;
+  }
+  .theTeam, .member{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
