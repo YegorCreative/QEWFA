@@ -343,7 +343,11 @@ color: #9500ff;
   .giveNow a:hover{
     opacity: 0.4;
   }
-  .threeContainers{
+  .threeCont {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /**.threeContainers{
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -369,7 +373,7 @@ color: #9500ff;
   }
   .headToeTwo{
     margin-left: 190px;
-  }
+  }**/
   .heather{
     margin-top: 20px;
    padding-left: 15px;
