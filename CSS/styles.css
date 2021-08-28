@@ -277,17 +277,14 @@ color: #9500ff;
   .people {
     z-index: 5;
   }
-  .usAbout{
-    color: white;
-    margin-top: -70px;
-    z-index: 6;
-    font-weight: 800;
-  }
+  
   .aboutUs p{
     padding: 15px;
+    max-width: 650px;
   }
   .aboutUs h3{
     padding-top: 25px;
+    text-align: center;
   }
 
   .footer{
@@ -325,6 +322,15 @@ color: #9500ff;
     padding: 5px;
     background-color: black;
     color: white;
+  }
+  .infoThree{
+    width: 100%;
+    display: flex; justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center; 
+  }
+  .justOne{
+    width: 100%;
   }
   /* katoe */
   .katoe{

@@ -9,6 +9,15 @@
         flex-direction: column;
     }
 }
+@media screen and (min-width:630px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+    .justOne{
+        width: 33%;
+      }
+}
+
 @media screen and (min-width:426px) {
     #partOne svg{
         width: 250px;
@@ -29,9 +38,3 @@
     
 }
 
-@media screen and (min-width:630px) {
-    .twoInOne{
-        flex-direction: row;
-    }
-   
-}
