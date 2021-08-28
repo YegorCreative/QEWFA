@@ -116,8 +116,8 @@ color: #9500ff;
       font-weight: 800;
   }
   #partTwo{
+    max-width: 600px;
       width: 100%;
-      height: 280px;
       box-sizing: border-box;
       background-image: url(../Assets/Group108.png);
       background-size: contain;
@@ -127,7 +127,7 @@ color: #9500ff;
       margin-bottom: 25px;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       text-align: center;
       color: white;
@@ -137,7 +137,7 @@ color: #9500ff;
     margin-top: 50px;
   }
   #partTwo p{
-    width: 320px;
+    width: 290px;
     padding: 15px;
 }
   #partTwo a{
@@ -148,15 +148,25 @@ color: #9500ff;
   }
   #ourProjects{
     width: 100%;
+    max-height: 500px;
     box-sizing: border-box;
     color: white;
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
+  .purpleProject{
+    max-width: 540px;
+    width: 100%;
+   
+  }
+
   #ourProjects h2{
    width: 100%;
-    top: 25px;
-    position: absolute;
+    margin-top: -130px;
+    margin-left: 80px;
+    text-align: left;
   }
   .projects{
     width: 100%;
@@ -165,13 +175,16 @@ color: #9500ff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../Assets/globe.png) ;
+    background-size: contain;
+    background-repeat: repeat;
   }
   .twoInOne{
     width: 100%;
+    height: ;
     box-sizing: border-box;
-    background-image: url(../Assets/globe.png) ;
+   
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -183,6 +196,7 @@ color: #9500ff;
     margin-bottom: 20px;
     border-radius: 12px;
     padding: 12px;
+    margin: 10px;
   }
   .project img {
     border-radius: 12px;
@@ -404,3 +418,59 @@ color: #9500ff;
     text-align: center;
     font-weight: 900;
   }
+
+  
+
+  .box {
+    width:70%;
+    height:100px;
+    background:#2357C7;
+    margin:40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.1rem;
+    text-align: center;
+    font-weight: 900;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  /*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
