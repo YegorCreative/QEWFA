@@ -13,9 +13,6 @@
     .twoInOne{
         flex-direction: row;
     }
-    .justOne{
-        width: 33%;
-      }
 }
 
 @media screen and (min-width:426px) {
