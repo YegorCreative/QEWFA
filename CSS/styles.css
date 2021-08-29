@@ -338,8 +338,15 @@ color: #9500ff;
     box-sizing: border-box;
     padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+  }
+  .katoe p{
+    max-width: 600px;
+    padding: 15px;
+  
   }
   .tops{
     margin: 0 auto;
@@ -352,6 +359,9 @@ color: #9500ff;
     justify-content: center;
     align-items: center;
   }
+  .giveNow{
+    position: relative;
+  }
   .giveNow a{
     width: 140px;
     padding: 5px;
@@ -362,7 +372,8 @@ color: #9500ff;
     
   }
   .middle{
-    margin-top: -210px;
+    position: absolute;
+    margin-top: 10%;
     padding-bottom: 100px;
     color: white;
   }
@@ -372,6 +383,15 @@ color: #9500ff;
   .threeCont {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .kidWithBottle{
+    max-width: 310px;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+  }
+  .groupS{
+    max-width: 500px;
   }
   /**.threeContainers{
     width: 100%;
