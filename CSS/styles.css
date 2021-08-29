@@ -23,7 +23,7 @@ color:#0037ff;
 color: #9500ff;
 */
 #mainContainer{
-    width: 320px;
+   min-width: 320px;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -385,10 +385,11 @@ color: #9500ff;
     margin-bottom: 20px;
   }
   .kidWithBottle{
-    max-width: 310px;
+    max-width: 390px;
+    width: 100%;
     box-sizing: border-box;
     float: left;
-    padding: 15px;
+    padding: 25px;
   }
   .groupS{
     max-width: 500px;
@@ -429,13 +430,23 @@ color: #9500ff;
     margin-top: -8px;
     margin-left:-35px;
   }
-  .theTeam, .member{
+  .theTeam{
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .member{
+    max-width: 420px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
   .donAte{
     width: 100%;
