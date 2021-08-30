@@ -335,6 +335,7 @@ color: #9500ff;
   }
   /* katoe */
   .katoe{
+    width: 320px;
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
@@ -347,6 +348,7 @@ color: #9500ff;
   .katoe p{
     max-width: 600px;
     padding: 15px;
+    text-align: justify;
   
   }
   .tops{
@@ -448,6 +450,7 @@ color: #9500ff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: justify;
   }
   .donAte{
     width: 100%;
@@ -455,6 +458,9 @@ color: #9500ff;
     padding: 15px;
     text-align: center;
     font-weight: 900;
+  }
+  .member p {
+    max-width: 420px;
   }
 
   
@@ -512,3 +518,9 @@ color: #9500ff;
   left: auto;
 }
 
+#projectsFour{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
