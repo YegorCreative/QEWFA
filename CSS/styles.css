@@ -299,6 +299,8 @@ color: #9500ff;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
+    background-color: gray;
+    color: white;
   }
   .container{
     width: 100%;
@@ -446,7 +448,7 @@ color: #9500ff;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .donAte{
     width: 100%;
