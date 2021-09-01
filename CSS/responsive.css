@@ -2,6 +2,9 @@
     .twoInOne{
         flex-direction: row;
     }
+    .secondHalf{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:768px) {

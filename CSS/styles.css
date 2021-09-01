@@ -141,10 +141,11 @@ color: #9500ff;
     padding: 15px;
 }
   #partTwo a{
-    width: 180px;
+    width: 280px;
     padding: 7px;
     color: black;
     background-color: white;
+    font-size: 25px;
   }
   #ourProjects{
     width: 100%;
@@ -222,7 +223,7 @@ color: #9500ff;
     
   }
   #myBar2 {
-    width: 100%;
+    width: 3%;
     height: 30px;
     background-color: #2357C7;
     border-radius: 5px;
@@ -335,8 +336,9 @@ color: #9500ff;
   }
   /* katoe */
   .katoe{
-    width: 320px;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 650px;
+   width: 100%;
     box-sizing: border-box;
     padding: 15px;
     display: flex;
@@ -366,13 +368,13 @@ color: #9500ff;
     position: relative;
   }
   .giveNow a{
-    width: 140px;
+    width: 280px;
     padding: 5px;
     background-color: black;
     color: white;
     text-decoration: none;
     text-align: center;
-    
+    font-size: 25px;
   }
   .middle{
     position: absolute;
@@ -522,5 +524,16 @@ color: #9500ff;
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+}
+.secondHalf{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
