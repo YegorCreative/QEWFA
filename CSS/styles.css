@@ -325,15 +325,17 @@ color: #9500ff;
     background-color: black;
     color: white;
   }
-  .infoThree{
-    width: 100%;
-    display: flex; justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center; 
-  }
-  .justOne{
-    width: 320px;
-  }
+.iconic{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.iconic a{
+  margin: 10px;
+}
   /* katoe */
   .katoe{
     margin: 0 auto;
