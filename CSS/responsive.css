@@ -1,27 +1,10 @@
-@media screen and (min-width:769px) {
-    .twoInOne{
-        flex-direction: row;
-    }
-    .secondHalf{
-        width: 50%;
-    }
-}
 
-@media screen and (max-width:768px) {
-    .twoInOne{
-        flex-direction: column;
-    }
-}
-@media screen and (min-width:630px) {
-    .twoInOne{
-        flex-direction: row;
-    }
-   
-}
+
+
 
 @media screen and (min-width:426px) {
-    #partOne svg{
-        width: 250px;
+    #partOne img{
+        width: 60%;
     }
     #partTwo{
         background-size: contain;
@@ -43,3 +26,27 @@
     
 }
 
+@media screen and (min-width:630px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    .twoInOne{
+        flex-direction: column;
+    }
+  
+}
+@media screen and (min-width: 769px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+    .secondHalf{
+        width: 50%;
+    }
+    .vmieo{
+        width: 500px;
+    }
+}

@@ -329,12 +329,16 @@ color: #9500ff;
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
 .iconic a{
   margin: 10px;
+}
+.iconic a:hover {
+opacity: 0.5;
 }
   /* katoe */
   .katoe{
@@ -538,4 +542,16 @@ color: #9500ff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.vmieo{
+  width: 100%;
+  height:500px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.vmieo iframe{
+  width: 100%;
+  height: 100%;
 }
