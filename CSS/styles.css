@@ -116,21 +116,15 @@ color: #9500ff;
       font-weight: 800;
   }
   #partTwo{
-    max-width: 600px;
       width: 100%;
       box-sizing: border-box;
-      background-image: url(../Assets/Group108.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-top: 25px;
-      margin-bottom: 25px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
       color: white;
+      position: relative;
   }
   #partTwo h2{
     color: white;
@@ -143,8 +137,8 @@ color: #9500ff;
   #partTwo a{
     width: 280px;
     padding: 7px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color:#333333;
     font-size: 25px;
   }
   #ourProjects{
