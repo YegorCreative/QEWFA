@@ -7,17 +7,12 @@
         width: 60%;
     }
     #partTwo{
-        background-size: contain;
-        background-size: 900px;
-        height: 380px;
-        background-image: url(../Assets/Group112x.png);
         margin: 0 auto;
     }
-    #partTwo p{
-        font-size: 18px;
-    }
+   
     #ourProjects img {
         max-width: 600px;
+        
     }
     .theTeam{
         flex-wrap: wrap;
