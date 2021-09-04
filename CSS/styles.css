@@ -132,6 +132,13 @@ color: #9500ff;
       position: relative;
       padding: 15px;
   }
+ #partTwo h1, #partTwo h2, #partTwo p{
+    color: white;
+    z-index: 1;
+  }
+  #partTwo h1{
+    margin-top: -350px;
+  }
  
   #partTwo a{
     width: 280px;
@@ -551,6 +558,8 @@ opacity: 0.5;
   display: flex;
   justify-content: center;
   padding: 20px;
+  background-image: url(../Assets/globe.png);
+  background-size: contain;
 }
 .vmieo iframe{
   width: 100%;
