@@ -370,35 +370,7 @@ opacity: 0.5;
   .tops{
     margin: 0 auto;
   }
-  .giveNow, .middle{
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .giveNow{
-    position: relative;
-  }
-  .giveNow a{
-    width: 280px;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 25px;
-  }
-  .middle{
-    position: absolute;
-    margin-top: 10%;
-    padding-bottom: 100px;
-    color: white;
-  }
-  .giveNow a:hover{
-    opacity: 0.4;
-  }
+ 
   .threeCont {
     margin-top: 20px;
     margin-bottom: 20px;
