@@ -108,9 +108,12 @@ color: #9500ff;
       align-items: center;
       background-image: url(../Assets/Asset1.png); 
     background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 0;
   }
-
+  #partOne img{
+    width: 300px;
+}
   .qualityEducation{
       color: white;
       font-weight: 800;
