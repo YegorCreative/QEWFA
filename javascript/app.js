@@ -8,17 +8,19 @@ function openNav() {
     document.getElementById("myNav").style.width = "0%";
   }
 
-
+  const square = document.querySelector('.square');
+  square.classList.remove('square-transition');
+  
+  // Create the observer, same as before:
   const observer = new IntersectionObserver(entries => {
-    // Loop over the entries
     entries.forEach(entry => {
-      // If the element is visible
       if (entry.isIntersecting) {
-        // Add the animation class
-        entry.target.classList.add('square-animation');
+        square.classList.add('square-transition');
+        return;
       }
+  
+      square.classList.remove('square-transition');
     });
   });
   
-  observer.observe(document.querySelector('.square'));
-  
+  observer.observe(document.querySelector('.square-wrapper'));
