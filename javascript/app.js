@@ -10,6 +10,10 @@ function openNav() {
 
   const square = document.querySelector('.square');
   square.classList.remove('square-transition');
+  const square2 = document.querySelector('.square2');
+  square.classList.remove('square-transition');
+  const square3 = document.querySelector('.square3');
+  square.classList.remove('square-transition');
   
   // Create the observer, same as before:
   const observer = new IntersectionObserver(entries => {
@@ -24,3 +28,8 @@ function openNav() {
   });
   
   observer.observe(document.querySelector('.square-wrapper'));
+  
+
+
+
+  //typewriter
