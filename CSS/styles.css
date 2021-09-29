@@ -129,6 +129,15 @@ color: #9500ff;
     position: relative;
     display: flex;
     justify-content: center;
+    position: relative;
+  }
+  .colorBlue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2357c775;
   }
   .logoQe{
     width: 300px;
@@ -139,6 +148,7 @@ position: absolute;
 .letsGif{
 
   width: 100%;
+  height: 100vh;
 }
 
   .qualityEducation{
@@ -146,6 +156,7 @@ position: absolute;
       font-weight: 800;
   }
   .stats{
+    margin-top: 50px;
     width: 100%;
     box-sizing: border-box;
   }
