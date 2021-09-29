@@ -140,15 +140,17 @@ color: #9500ff;
     background-color: #2357c775;
   }
   .logoQe{
-    width: 300px;
+    width: 220px;
 position: absolute;
-   z-index: 45;
-   top: 20px;
+   z-index: 0;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .letsGif{
 
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
   .qualityEducation{
@@ -594,14 +596,15 @@ transform: scale(1.1);
 }
 
 /* animation testing */
-.square, .square2, .square3 {
+.square {
   width: 100%;
   opacity: 0;
   transform: scale(1.2);
+  box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-.square, .square2, .square3 {
+.square{
   transition: opacity 1.5s ease, transform 1.5s ease;
 }
 }
@@ -611,4 +614,35 @@ transform: scale(1.1);
   transform: none;
 }
 
-/*typer writer*/
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1, .typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    mask-repeat: repeat;
+    
+}
+.typewriter h1{
+  font-size: 25px;
+}
+.typewriter h2{
+  font-size: 20px;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 153, 255); }
+}
