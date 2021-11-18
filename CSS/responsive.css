@@ -7,7 +7,7 @@
       background-attachment: scroll;
     }
   }
-  
+
 @media screen and (max-width:768px) {
     .twoInOne{
         flex-direction: column;
@@ -35,6 +35,9 @@
     .twoInOne{
         flex-direction: row;
     }
+    .twoSides{
+        flex-direction: row;
+    }
    
 }
 
@@ -51,8 +54,4 @@
     }
 }
 
-@media screen and (min-width: 1024px){
-   
-    
-}
 

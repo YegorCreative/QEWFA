@@ -618,23 +618,7 @@ transform: scale(1.1);
 }
 
 /* animation testing */
-.square {
-  width: 100%;
-  opacity: 0;
-  transform: scale(1.2);
-  box-sizing: border-box;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-.square{
-  transition: opacity 1.5s ease, transform 1.5s ease;
-}
-}
-
-.square-transition {
-  opacity: 1;
-  transform: none;
-}
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1, .typewriter h2 {
@@ -726,9 +710,12 @@ max-height: 1000px;
 
 /*paralax*/
 .parallaX {
+  max-width: 1440px;
+  width: 100%;
   /* The image used */
-  background-image: url("../Assets/parallaX.png");
-
+  background-image: url("../Assets/mainBackground.png");
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
   /* Set a specific height */
   min-height: 100vh;
 
@@ -737,10 +724,123 @@ max-height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
+  overflow-y: hidden;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallaX {
     background-attachment: scroll;
+  }
+}
+.statS{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.twoSides{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.leftSide1, .leftSide2, .leftSide3, .rightSide1{
+  height: 550px;
+  box-sizing: border-box;
+
+} 
+.rightSide1{
+  width: 100%;
+  background-image: url(../Assets/a4a.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.leftSide1{
+  width: 100%;
+  background-image: url(../Assets/a11a.png);
+  background-size: cover;
+  overflow: hidden;
+}
+.leftSide2{
+  width: 100%;
+  background-image: url(../Assets/a2a.png);
+  background-size: cover;
+ overflow: hidden;
+
+}
+.leftSide3{
+  width: 100%;
+  background-image: url(../Assets/a33.png);
+  background-size: cover;
+ overflow: hidden;
+}
+.rightSide1 h1{
+  font-size: 80px;
+  color: white;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-animation: heartbeat 8.5s ease-in-out infinite both;
+  animation: heartbeat 8.5s ease-in-out infinite both;
+}
+.rightSide1 h3{
+  font-size: 35px;
+  color: white;
+  padding: 15px;
+  margin-top: -55px;
+}
+.twoSideTwo{
+  flex-direction: column-reverse;
+}
+@media  screen and (min-width: 950px) {
+  .rightSide1, .leftSide1, .leftSide2, .leftSide3{
+    width: 50%;
+  }
+  .twoSides, .twoSideTwo{
+    flex-direction: row-reverse;
+    padding: 10px;
+  }
+ 
+
+}
+
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
 }
