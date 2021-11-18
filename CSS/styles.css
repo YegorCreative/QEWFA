@@ -93,8 +93,8 @@ color: #9500ff;
   }
   .mobileMenu{
       width: 50%;
-      position: absolute;
-      color: white;
+      position: fixed;
+      color: silver;
       z-index: 100;
     margin-left: 30px;
   }
@@ -243,16 +243,14 @@ position: absolute;
   }
   .twoInOne{
     width: 100%;
-    height: ;
     box-sizing: border-box;
-   
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .project{
-    width: 300px;
-    height: 300px;
+    max-width: 450px;
+    max-height: 460px;
     background-color: #3C93DB;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -262,7 +260,7 @@ position: absolute;
     transition: all .2s ease-in-out;
   }
   .project:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   .project img {
     border-radius: 12px;
