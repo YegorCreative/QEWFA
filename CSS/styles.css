@@ -650,35 +650,15 @@ transform: scale(1.1);
   from, to { border-color: transparent }
   50% { border-color: rgb(0, 153, 255); }
 }
-
-.parallax, .parallax2 {
-  /* The image used */
-
-  /* Set a specific height */
-  max-width: 750px;
-width: 50%;
-max-height: 1000px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: lighten;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  font-size: 18px;
-  font-weight: 500;
-
-
-}
-.parallax{
-  background-image: url("../Assets/mountain3.png");
-}
-.parallax2{
-  background-image: url("../Assets/mountain2.png");
+.parallax1{
+  background-image: url(../Assets/a4a.png);
+  height: 600px;
+   background-size: cover;
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   margin-bottom: 20px;
 }
 .sideByside{
   width: 100%;
@@ -693,8 +673,7 @@ max-height: 1000px;
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 25px;
-  
+  padding: 15px;
 }
 
 .imageKid{
@@ -705,13 +684,16 @@ max-height: 1000px;
   justify-content: center;
   align-items: center;
 }
+.imageKid img{
+ 
+}
 
 /*paralax*/
-.parallaX {
+.parallaX, .animatesss, .animatesss2{
   max-width: 1440px;
   width: 100%;
   /* The image used */
-  background-image: url("../Assets/mainBackground.png");
+  
 	-webkit-animation: kenburns-top 5s ease-out both;
 	        animation: kenburns-top 5s ease-out both;
   /* Set a specific height */
@@ -725,9 +707,18 @@ max-height: 1000px;
   box-sizing: border-box;
   overflow-y: hidden;
 }
+.parallaX{
+  background-image: url("../Assets/mainBackground.png");
+}
+.animatesss{
+  background-image: url("../Assets/projectsBanner.png");
+}
+.animatesss2{
+  background-image: url("../Assets/katoeMatoe.png");
+}
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-  .parallaX {
+  .parallaX, .animatesss{
     background-attachment: scroll;
   }
 }
