@@ -662,7 +662,9 @@ transform: scale(1.1);
 
 
 /*paralax*/
-.parallaX, .animatesss, .animatesss2, .animatesss3, .animatesss4, .animatesss5{
+.parallaX, .animatesss, .animatesss2, .animatesss3,
+ .animatesss4, .animatesss5, .animatesss6,
+ .animatesss7{
   max-width: 1440px;
   width: 100%;
   /* The image used */
@@ -698,9 +700,18 @@ transform: scale(1.1);
 .animatesss5{
   background-image: url("../Assets/sponsora-child.png");
 }
+.animatesss6{
+  background-image: url("../Assets/about-katoe.png");
+}
+.animatesss7{
+  background-image: url("../Assets/donate-now.png");
+}
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-  .parallaX, .animatesss, .animatesss2, .animatesss3, .animatesss4, .animatesss5{
+  .parallaX, .animatesss, .animatesss2,
+   .animatesss3, .animatesss4, .animatesss5,
+   .animatesss6, .animatesss7{
     background-attachment: scroll;
   }
 }
@@ -913,4 +924,12 @@ transform: scale(1.1);
 #menu4 {
   top: 240px;
   background-color: #2196F3;
+}
+.iJustNeedPadding{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
