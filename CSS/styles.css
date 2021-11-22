@@ -872,7 +872,7 @@ transform: scale(1.1);
 /*sideMenu*/
 
 #mySidenav5 a {
-  position: absolute;
+  position: fixed;
   left: -240px;
   transition: 0.3s;
   padding: 15px;
