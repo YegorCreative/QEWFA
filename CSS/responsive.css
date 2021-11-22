@@ -14,6 +14,28 @@
     }
   
 }
+
+  @media screen and (min-width: 769px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+    .secondHalf{
+        width: 50%;
+    }
+    .vmieo{
+        width: 500px;
+    }
+}
+@media screen and (min-width:630px) {
+    .twoInOne{
+        flex-direction: row;
+    }
+    .twoSides{
+        flex-direction: row;
+    }
+   
+}
+
 @media screen and (min-width:426px) {
   
     #partTwo{
@@ -31,27 +53,9 @@
     
 }
 
-@media screen and (min-width:630px) {
-    .twoInOne{
-        flex-direction: row;
-    }
-    .twoSides{
-        flex-direction: row;
-    }
-   
-}
 
 
-@media screen and (min-width: 769px) {
-    .twoInOne{
-        flex-direction: row;
-    }
-    .secondHalf{
-        width: 50%;
-    }
-    .vmieo{
-        width: 500px;
-    }
-}
+
+
 
 

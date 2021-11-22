@@ -698,6 +698,8 @@ transform: scale(1.1);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  background-image: url(../Assets/a4a.png);
+  background-size: cover;
 }
 .twoSides{
   width: 100%;
@@ -705,17 +707,20 @@ transform: scale(1.1);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-repeat: no-repeat;
 }
-.leftSide1, .leftSide2, .leftSide3, .rightSide1{
-  height: 550px;
+.leftSide1, .rightSide1{
   box-sizing: border-box;
-
+  width: 50%;
 } 
-.rightSide1, .rightSide2{
+.rightSide1{
   width: 100%;
-  background-image: url(../Assets/a4a.png);
-  background-size: cover;
+  height: 350px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -730,43 +735,16 @@ transform: scale(1.1);
 }
 .leftSide1{
   width: 100%;
-  background-image: url(../Assets/a11a.png);
-  background-size: cover;
-  overflow: hidden;
+  box-sizing: border-box;
 }
-.leftSide2{
+.leftSide1 img{
+  max-width: 850px;
   width: 100%;
-  background-image: url(../Assets/a2a.png);
-  background-size: cover;
- overflow: hidden;
-
-}
-.leftSide3{
-  width: 100%;
-  background-image: url(../Assets/a33.png);
-  background-size: cover;
- overflow: hidden;
-}
-.leftSide4{
-  width: 100%;
-  background-image: url(../Assets/Asset21.png);
-  background-size: cover;
- overflow: hidden;
- background-position: right;
- height: 550px;
- 
 }
 
-.leftSide5{
-  width: 100%;
-  background-image: url(../Assets/Asset22.png);
-  background-size: cover;
- overflow: hidden;
- background-position: center;
-}
 
 .rightSide1 h1{
-  font-size: 100px;
+  font-size: 60px;
   color: white;
   padding: 15px;
   padding-top: 5px;
@@ -783,8 +761,9 @@ transform: scale(1.1);
 .twoSideTwo{
   flex-direction: column-reverse;
 }
+
 @media  screen and (min-width: 950px) {
-  .rightSide1, .leftSide1, .leftSide2, .leftSide3, .rightSide2, .leftSide4, .leftSide5{
+  .rightSide1, .leftSide1{
     width: 50%;
   }
   .twoSides, .twoSideTwo{
@@ -794,9 +773,7 @@ transform: scale(1.1);
  .leftSide5{
   background-position: right;
  }
-
 }
-
 
 @keyframes heartbeat {
   from {
@@ -858,6 +835,7 @@ transform: scale(1.1);
   align-items: center;
   flex-direction: column;
   color: white;
+  padding: 20px;
 }
 .katToe1 img{
   max-width: 450px;
@@ -870,7 +848,6 @@ transform: scale(1.1);
   0 0 0 15px #7ac0fa;
   margin-top: 25px;
   margin-bottom: 25px;
-  animation: heartbeat 8.5s ease-in-out infinite both;
 }
 @media screen and (min-width: 950px){
   .rowRev1{
