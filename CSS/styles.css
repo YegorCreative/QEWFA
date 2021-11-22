@@ -705,6 +705,7 @@ transform: scale(1.1);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  height: 500px;
 }
 .leftSide1, .leftSide2, .leftSide3, .rightSide1{
   height: 550px;
@@ -725,6 +726,7 @@ transform: scale(1.1);
   box-sizing: border-box;
   text-align: left;
   color: white;
+  
 }
 .leftSide1{
   width: 100%;
@@ -751,20 +753,16 @@ transform: scale(1.1);
   background-size: cover;
  overflow: hidden;
  background-position: right;
- background-position: right;
+ height: 550px;
+ 
 }
-.leftSide5{
-  width: 100%;
-  background-image: url(../Assets/a33.png);
-  background-size: cover;
- overflow: hidden;
-}
+
 .leftSide5{
   width: 100%;
   background-image: url(../Assets/Asset22.png);
   background-size: cover;
  overflow: hidden;
- height: 550px;
+ background-position: center;
 }
 
 .rightSide1 h1{
@@ -793,7 +791,9 @@ transform: scale(1.1);
     flex-direction: row-reverse;
     padding: 5px;
   }
- 
+ .leftSide5{
+  background-position: right;
+ }
 
 }
 
@@ -830,5 +830,52 @@ transform: scale(1.1);
             transform: scale(1);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
+  }
+}
+
+/*katToe*/
+.katToe, .katToe1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url(../Assets/a4a.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+.katToe1{
+  background-image: none;
+}
+.katoeLeft, .katoeRight{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.katToe1 img{
+  max-width: 450px;
+  width: 100%;
+  border-radius: 35% 10%;
+  border: solid 4px #c5e5ff;
+  box-shadow: 
+  0 0 0 5px #a6d0f1,
+  0 0 0 10px #80bef0, 
+  0 0 0 15px #7ac0fa;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 950px){
+  .rowRev1{
+    flex-direction: row;
+  }
+  .rowRev{
+    flex-direction: row-reverse;
   }
 }
