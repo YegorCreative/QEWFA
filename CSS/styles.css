@@ -148,7 +148,7 @@ color: #9500ff;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2357c775;
+    background-color: #2357c757;
   }
   .logoQe{
     width: 220px;
@@ -261,6 +261,8 @@ position: absolute;
     padding: 12px;
     margin: 10px;
     transition: all .2s ease-in-out;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .project:hover{
     transform: scale(1.05);
