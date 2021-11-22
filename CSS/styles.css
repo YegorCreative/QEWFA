@@ -660,7 +660,7 @@ transform: scale(1.1);
 
 
 /*paralax*/
-.parallaX, .animatesss, .animatesss2, .animatesss3, .animatesss4{
+.parallaX, .animatesss, .animatesss2, .animatesss3, .animatesss4, .animatesss5{
   max-width: 1440px;
   width: 100%;
   /* The image used */
@@ -693,9 +693,12 @@ transform: scale(1.1);
 .animatesss4{
   background-image: url("../Assets/community-center.png");
 }
+.animatesss5{
+  background-image: url("../Assets/sponsora-child.png");
+}
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-  .parallaX, .animatesss, .animatesss2, .animatesss3, .animatesss4{
+  .parallaX, .animatesss, .animatesss2, .animatesss3, .animatesss4, .animatesss5{
     background-attachment: scroll;
   }
 }
