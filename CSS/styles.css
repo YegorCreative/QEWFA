@@ -870,36 +870,44 @@ transform: scale(1.1);
 }
 
 /*sideMenu*/
-
+.sidenav5{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 #mySidenav5 a {
-  position: fixed;
-  left: -240px;
   transition: 0.3s;
   padding: 15px;
   width: 260px;
   text-decoration: none;
   font-size: 20px;
   color: white;
-  border-radius: 0 5px 5px 0;
+  border-radius: 15px;
+  text-align: center;
+  margin:15px;
 }
 
 #mySidenav5 a:hover {
-  left: 0;
+  opacity: 0.7;
+  box-shadow: 
+  0 0 0 5px #68afe9;
 }
 
 #menu1 {
   top: 60px;
-  background-color: #77bcf5;
+  background-color: #2196F3;
 }
 
 #menu2 {
   top: 120px;
-  background-color: #68b7f8;
+  background-color: #2196F3;
 }
 
 #menu3 {
   top: 180px;
-  background-color: #4da7f1;
+  background-color: #2196F3;
 }
 
 #menu4 {
