@@ -960,11 +960,11 @@ transform: scale(1.1);
   padding: 10px;
 }
 
-.LetsDonate{
-  width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.letsDonate{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
 }
