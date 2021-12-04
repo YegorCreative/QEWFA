@@ -367,7 +367,7 @@ color: #9500ff;
     
   }
   .people {
-    z-index: 5;
+    z-index: 0;
     
   }
 
@@ -886,9 +886,9 @@ transform: scale(1.1);
   padding: 20px;
 }
 .katToe1 img{
-  max-width: 450px;
+  max-width: 700px;
   width: 100%;
-  border-radius: 35% 10%;
+  border-radius: 5%;
   border: solid 4px #c5e5ff;
   box-shadow: 
   0 0 0 5px #a6d0f1,
@@ -958,4 +958,13 @@ transform: scale(1.1);
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+.LetsDonate{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
