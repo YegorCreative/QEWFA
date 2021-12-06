@@ -102,6 +102,18 @@ color: #9500ff;
   .mobileMenu:hover{
     color: rgb(64, 147, 224);
   }
+
+  .LogoMC{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    z-index: -1;
+  }
   .justMenu{ display: none;}
   @media screen and (min-width: 1024px){
     .mobileMenu{
@@ -112,7 +124,7 @@ color: #9500ff;
       box-sizing: border-box;
       z-index: 5;
       background-color: #3C93DB;
-      padding: 15px;
+      padding: 25px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -125,6 +137,9 @@ color: #9500ff;
     font-weight: 500;
     color: white;
     }
+  }
+  .justMenu a:hover{
+    color: #a9d1f1;
   }
 
   #partOne{
@@ -177,17 +192,12 @@ color: #9500ff;
     background-color: #2357c757;
   }
   .logoQe{
+    margin-top: 20px;
     width: 160px;
    z-index: 0;
 }
-.LogoMC{
-  width: 100%;
-  background-color: #3C93DB;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
+
 .letsGif{
 
   width: 100%;
