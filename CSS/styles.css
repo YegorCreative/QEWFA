@@ -180,6 +180,14 @@ color: #9500ff;
     width: 160px;
    z-index: 0;
 }
+.LogoMC{
+  width: 100%;
+  background-color: #3C93DB;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .letsGif{
 
   width: 100%;
