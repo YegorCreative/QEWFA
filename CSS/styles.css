@@ -764,11 +764,11 @@ transform: scale(1.1);
 .leftSide1, .rightSide1{
   box-sizing: border-box;
   width: 50%;
-  height: 350px;
+  height: 40vh;
 } 
 .rightSide1{
   width: 100%;
-  height: 350px;
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -784,7 +784,7 @@ transform: scale(1.1);
 .leftSide1{
   width: 100%;
   box-sizing: border-box;
-  height: 350px;
+ height: 40vh;
   overflow: hidden;
 }
 .leftSide1 img{
@@ -794,7 +794,7 @@ transform: scale(1.1);
 
 
 .rightSide1 h1{
-  font-size: 60px;
+  font-size: 30px;
   color: white;
   padding: 15px;
   padding-top: 5px;
@@ -803,10 +803,10 @@ transform: scale(1.1);
   animation: heartbeat 8.5s ease-in-out infinite both;
 }
 .rightSide1 h3{
-  font-size: 35px;
+  font-size: 18px;
   color: white;
   padding: 15px;
-  margin-top: -55px;
+  margin-top: -35px;
 }
 .twoSideTwo{
   flex-direction: column;
@@ -815,12 +815,20 @@ transform: scale(1.1);
 @media  screen and (min-width: 950px) {
   .rightSide1, .leftSide1{
     width: 50%;
+    height: 350px;
   }
   .twoSides, .twoSideTwo{
     flex-direction: row-reverse;
   }
  .leftSide5{
   background-position: right;
+ }
+ .rightSide1 h3{
+  font-size: 35px;
+  margin-top: -55px;
+ }
+ .rightSide1 h1{
+   font-size: 60px;
  }
 }
 
