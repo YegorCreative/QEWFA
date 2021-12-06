@@ -811,6 +811,7 @@ transform: scale(1.1);
 }
 
 @media  screen and (min-width: 1050px){
+ 
   .rightSide1 h3{
     font-size: 35px;
     margin-top: -55px;
@@ -821,8 +822,7 @@ transform: scale(1.1);
 }
 @media  screen and (min-width: 980px){
   .rightSide1, .leftSide1{
-    width: 50%;
-    height: 40vh;
+    height: 42vh;
   }
 }
 @media  screen and (min-width: 750px) {

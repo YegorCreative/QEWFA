@@ -7,7 +7,7 @@
       background-attachment: scroll;
     }
   }
-
+ 
 @media screen and (max-width:768px) {
     .twoInOne{
         flex-direction: column;
