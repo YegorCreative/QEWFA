@@ -764,6 +764,7 @@ transform: scale(1.1);
 .leftSide1, .rightSide1{
   box-sizing: border-box;
   width: 50%;
+  height: 350px;
 } 
 .rightSide1{
   width: 100%;
