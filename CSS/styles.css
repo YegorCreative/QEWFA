@@ -726,7 +726,9 @@ transform: scale(1.1);
   overflow-y: hidden;
 }
 .parallaX{
-  background-image: url("../Assets/main1.jpg");
+  background-image: url("../Assets/main2.jpg");
+
+  
 }
 .animatesss{
   background-image: url("../Assets/projectsBanner.png");
