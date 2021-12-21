@@ -318,12 +318,22 @@ color: #9500ff;
     text-align: center;
     color: white;
   }
+
+  /* Progress bar scc  */
   #myProgress {
     width: 100%;
     border: solid 2px #2357C7;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 2px;
+  }
+  #myBar0 {
+    width: 0%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
   }
   
   #myBar1 {
@@ -364,6 +374,8 @@ color: #9500ff;
     justify-content: space-between;
     color: white;font-weight: 600;
   }
+
+  
   .learnMore{
     text-decoration: none;
     text-align: center;
