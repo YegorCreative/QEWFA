@@ -318,6 +318,8 @@ color: #9500ff;
     text-align: center;
     color: white;
   }
+
+  /* Progress bar scc  */
   #myProgress {
     width: 100%;
     border: solid 2px #2357C7;
@@ -325,8 +327,16 @@ color: #9500ff;
     box-sizing: border-box;
     padding: 2px;
   }
+  #myBar0 {
+    width: 0%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+  }
   
-  #myBar1 {
+  #myBar100 {
     width: 100%;
     height: 30px;
     background-color: #2357C7;
@@ -334,15 +344,7 @@ color: #9500ff;
     box-sizing: border-box;
     
   }
-  #myBar2 {
-    width: 3%;
-    height: 30px;
-    background-color: #2357C7;
-    border-radius: 5px;
-    box-sizing: border-box;
-    
-  }
-  #myBar3 {
+  #myBar1 {
     width: 1%;
     height: 30px;
     background-color: #2357C7;
@@ -350,7 +352,30 @@ color: #9500ff;
     box-sizing: border-box;
     
   }
+  #myBar2 {
+    width: 2%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+  }
+  #myBar3 {
+    width: 3%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+  }
   #myBar4 {
+    width: 4%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  #myBar25 {
     width: 25%;
     height: 30px;
     background-color: #2357C7;
@@ -364,6 +389,8 @@ color: #9500ff;
     justify-content: space-between;
     color: white;font-weight: 600;
   }
+
+  
   .learnMore{
     text-decoration: none;
     text-align: center;
@@ -726,7 +753,9 @@ transform: scale(1.1);
   overflow-y: hidden;
 }
 .parallaX{
-  background-image: url("../Assets/main1.jpg");
+  background-image: url("../Assets/main2.jpg");
+
+  
 }
 .animatesss{
   background-image: url("../Assets/projectsBanner.png");
