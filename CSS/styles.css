@@ -336,7 +336,7 @@ color: #9500ff;
     
   }
   
-  #myBar1 {
+  #myBar100 {
     width: 100%;
     height: 30px;
     background-color: #2357C7;
@@ -344,15 +344,7 @@ color: #9500ff;
     box-sizing: border-box;
     
   }
-  #myBar2 {
-    width: 3%;
-    height: 30px;
-    background-color: #2357C7;
-    border-radius: 5px;
-    box-sizing: border-box;
-    
-  }
-  #myBar3 {
+  #myBar1 {
     width: 1%;
     height: 30px;
     background-color: #2357C7;
@@ -360,7 +352,30 @@ color: #9500ff;
     box-sizing: border-box;
     
   }
+  #myBar2 {
+    width: 2%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+  }
+  #myBar3 {
+    width: 3%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+  }
   #myBar4 {
+    width: 4%;
+    height: 30px;
+    background-color: #2357C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  #myBar25 {
     width: 25%;
     height: 30px;
     background-color: #2357C7;
